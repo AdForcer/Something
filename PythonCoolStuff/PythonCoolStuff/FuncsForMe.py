@@ -12,8 +12,8 @@ def aWriter(Number):
 def LoadFiles(Path, FilesAmount):
     Files = []
     for i in range(FilesAmount):
-        File = open(f'{Path}{i}.penis', 'r')
-        Files.append(File)
+        File = open(f'{Path}\{i}.penis', 'r')
+        Files.append(File.readlines())
         File.close()
     return Files
 
