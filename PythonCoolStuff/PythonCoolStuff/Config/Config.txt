@@ -1,0 +1,2 @@
+Files_Amount = 1
+Path = C:\Users\vdkuz\source\repos\PythonCoolStuff\PythonCoolStuff\Files
